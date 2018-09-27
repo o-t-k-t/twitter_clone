@@ -10,5 +10,8 @@ module TwitterClone
 
     config.time_zone = 'Tokyo'
     config.active_record.default_timezone = :local
+    
+    # サーバ容量節約のためデバッグログは使用しない
+    config.log_level = :info
   end
 end
