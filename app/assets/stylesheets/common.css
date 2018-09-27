@@ -1,0 +1,101 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  vertical-align: middle;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("/header.jpg");
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #333333;
+  height: 70px;
+}
+
+header ul {
+  list-style: none;
+}
+
+.left-header {
+  float: left; 
+}
+
+.right-header {
+  float: right;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header li {
+  float: left;
+  padding: 0px 20px 0px 20px;
+}
+
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-header img {
+  max-width: 250px;
+}
+
+.about {
+}
+
+.about p {
+  margin: 40px;
+}
+
+.function {
+  background-color: #d3d3d3;
+  padding: 60px 0px 60px 0px;
+}
+
+.function h1 {
+  padding:  0px 0px 60px 0px;
+}
+
+.function table {
+  width: 800px;
+}
+
+.function:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.function-images {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.function-image {
+}
+
+footer {
+  text-align: center;
+  background-color: #2f3e4e;
+  padding: 10px 0px 0px 0px;
+  
+  font-size: 0.7rem;
+  color: #ffffff;
+  
+  height: 60px;
+  bottom: 0;
+}
