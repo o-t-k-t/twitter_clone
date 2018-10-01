@@ -1,10 +1,9 @@
-<h1>つぶやき一覧</h1>
 <p><%= notice %></p>
-<br>
-<table>
+<h1>つぶやき一覧</h1>
+<table class="tweets_table">
   <% @tweets.each do |tweet|  %>
     <tr>
-      <td><%= tweet.content %></td>
+      <th><%= tweet.content %></th>
       <td><%= link_to '編集', edit_tweet_path(tweet.id) %></td>
       <td><%= link_to '削除', tweet_path(tweet.id), method: :delete, data: { confirm: '本当に削除していいですか？' } %></td>
     </tr>

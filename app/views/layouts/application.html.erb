@@ -15,12 +15,9 @@
 
   <body>
     <header>
-      <ul class="left-header">
-        <%= link_to "Home", root_path %>
-        <%= link_to "つぶやき一覧", tweets_path %>
-        <%= link_to "新規投稿", new_tweet_path %>
-      </ul>
-      <ul class="right-header"></ul>
+      <%= link_to "Home", root_path %>
+      <%= link_to "つぶやき一覧", tweets_path %>
+      <%= link_to "新規投稿", new_tweet_path %>
     </header>
 
     <%= yield %>
