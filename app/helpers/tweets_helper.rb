@@ -3,7 +3,7 @@ module TweetsHelper
     case action_name
     when 'new', 'confirm'
       confirm_tweets_path
-    when 'edit'
+    when 'edit', 'update'
       tweet_path
     else
       raise "called by unexpected controller #{action_name}"

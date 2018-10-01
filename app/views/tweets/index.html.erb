@@ -4,8 +4,8 @@
   <% @tweets.each do |tweet|  %>
     <tr>
       <th><%= tweet.content %></th>
-      <td><%= link_to '編集', edit_tweet_path(tweet.id) %></td>
-      <td><%= link_to '削除', tweet_path(tweet.id), method: :delete, data: { confirm: '本当に削除していいですか？' } %></td>
+      <td><%= link_to '編集', edit_tweet_path(tweet.id), class: "tweet_edit_button" %></td>
+      <td><%= link_to '削除', tweet_path(tweet.id), method: :delete, data: { confirm: '本当に削除していいですか？' }, class: "tweet_delete_button" %></td>
     </tr>
   <% end %>
 </table>

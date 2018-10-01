@@ -38,16 +38,35 @@ header :after {
 .tweets_table {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
 }
 
 .tweets_table th {
+  height: 40px;
   font-weight: normal; 
+  width: 240px;
   text-align: left;
 }
 
 .tweets_table td {
-  width: 40px;
+  width: 60px;
+}
+
+.tweet_delete_button {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.tweet_edit_button {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+
+  border-radius: 5px;
+  background-color: red;
 }
 
 footer {
