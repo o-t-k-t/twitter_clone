@@ -73,6 +73,10 @@ header :after {
   background-color: red;
 }
 
+.error_message {
+  list-style: none; 
+}
+
 footer {
   text-align: center;
   background-color: #47abe7;
