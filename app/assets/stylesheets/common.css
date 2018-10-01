@@ -35,6 +35,10 @@ header :after {
   clear: both;
 }
 
+.about p {
+  margin: 40px;
+}
+
 .tweets_table {
   margin-left: auto;
   margin-right: auto;
