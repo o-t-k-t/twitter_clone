@@ -1,0 +1,90 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  vertical-align: middle;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("/header.jpg");
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #47abe7;
+  height: 80px;
+}
+
+header a {
+  float: left;
+  padding: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header :after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about p {
+  margin: 40px;
+}
+
+.tweets_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tweets_table th {
+  height: 40px;
+  font-weight: normal; 
+  width: 240px;
+  text-align: left;
+}
+
+.tweets_table td {
+  width: 60px;
+}
+
+.tweet_delete_button {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.tweet_edit_button {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+
+  border-radius: 5px;
+  background-color: red;
+}
+
+.error_message {
+  list-style: none; 
+}
+
+footer {
+  text-align: center;
+  background-color: #47abe7;
+  padding: 10px 0px 0px 0px;
+  
+  font-size: 0.7rem;
+  color: #000000;
+  
+  height: 60px;
+  bottom: 0;
+}
